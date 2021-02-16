@@ -13,6 +13,7 @@ namespace BlazingTrails.Api
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            // p
         }
 
         public IConfiguration Configuration { get; }
