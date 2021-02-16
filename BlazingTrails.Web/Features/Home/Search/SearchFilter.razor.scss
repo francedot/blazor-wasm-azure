@@ -1,0 +1,21 @@
+﻿.filters {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: baseline;
+    justify-content: flex-end;
+
+    label {
+        text-transform: uppercase;
+        margin-right: 10px;
+    }
+
+    input {
+        margin-right: 20px;
+        width: 100px;
+    }
+
+    // Selects every button element that is the first button element of its parent
+    button:first-of-type {
+        margin-right: 10px;
+    }
+}
